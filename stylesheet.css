@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Rajdhani|Yanone+Kaffeesatz');
+
+
+body {
+  background-color: #f0f5f5;
+  padding: 100px;
+  font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h4 {
+  color: #404040;
+  font-family: 'Gugi', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Nav Links */
+.NavLinks {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+
+.Home {
+  letter-spacing: .1em;
+  color: #bfbfbf;
+}
+
+.About {
+  letter-spacing: .1em;
+  color: #bfbfbf;
+}
+
+.Contact {
+  letter-spacing: .1em;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #ff571a;
+}
+
+/* Home Page */
+.Welcome {
+  color: #404040;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.Introduction {
+  color: black;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* External Web Link */
+.MyWeb {
+  color: #395e60;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Photos */
+.Photo-Grid-Container {
+  display: flex;
+  justify-content: center
+}
+
+.Photo-Grid {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.me {
+  border: 2px solid black;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 10px rgba(102, 153, 153, 0.7);
+}
+
+.type {
+  border: 2px solid black;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 10px rgba(102, 153, 153, 0.7);
+}
+
+.scout {
+  border: 2px solid black;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 10px rgba(102, 153, 153, 0.7);
+}
+
+/* About Page */
+
+.Fun-Facts {
+  padding-top: 40px;
+  padding-left: 80px;
+  color: #404040;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.plants {
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  float: left;
+  position: relative;
+}
+
+.ordered-list {
+  letter-spacing: .03em;
+  padding-top: 40px;
+  color: #ff8f66;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 26px;
+  position: relative;
+}
+
+.Favorite-Books{
+  padding-top: 90px;
+  padding-left: 80px;
+  color: #404040;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.Zen {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  float: right;
+  padding-right: 150px;
+}
+
+.books {
+  letter-spacing: .03em;
+  padding-left: 150px;
+  padding-top: 90px;
+  color: #ff8f66;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 26px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Contact Page */
+  /* Form */
+.Form {
+  width: 500px;
+  padding: 80px;
+  margin: auto;
+  background-color: #ff8f66;
+  border: 10px solid #395e60;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .Photo-Grid-Container {
+    display: flex;
+    flex-wrap: wrap; }
+  .Form {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap; }
+}
